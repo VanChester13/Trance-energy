@@ -1,0 +1,73 @@
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table {
+  margin: 0 auto;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.288);
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.header {
+  width: 100%;
+
+  tr {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 0;
+    th {
+      width: 33.3%;
+    }
+  }
+}
+
+.trTitle {
+    font-size: 28px;
+}
+
+.trTitles {
+  margin-bottom: 10px;
+  background-color: rgb(230, 255, 255);
+}
+
+.body tr {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(109, 109, 109, 0.493);
+  td {
+    width: 33.3%;
+  }
+}
+
+.body tr:last-of-type {
+  border: none;
+  padding: 10px 0 0 0;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-color: rgb(230, 255, 255);
+}
