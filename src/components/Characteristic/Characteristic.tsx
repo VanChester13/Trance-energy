@@ -33,9 +33,9 @@ const Characteristic = ({ characteristic }: IProps): React.ReactElement => {
 
   const sendData = () => {
     const initData = Object.values({...data})
-    const onlyNumArr = initData.map(item => +item.speed)
-    const sortingForce = onlyNumArr.sort((a: number, b: number) =>  a < b ? -1 : 1)
-    console.log(sortingForce)
+    const onlySpeed = initData.map(item => +item.speed)
+    const sortingSpeed = onlySpeed.sort((a: number, b: number) =>  a < b ? -1 : 1)
+    console.log(sortingSpeed)
   };
 
   return (
